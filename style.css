@@ -18,11 +18,16 @@ h3 {
 
 /* Header */
 header {
+  box-sizing: border-box;
   text-align: center;
   display: flex;
   flex-direction: row;
 }
 
+header div{
+  display: flex;
+  flex-direction: row;
+}
 /* Containers */
 div {
   background-color: #eae2b7;
@@ -54,7 +59,16 @@ a:hover {
 }
 
 nav a {
+  box-sizing: border-box;
+  display: flex;
+  text-align: center;
   padding-left: 20px;
+}
+
+nav {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
 
 /* Images */
@@ -77,4 +91,14 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.section-container{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item{
+  text-align: left;
 }
